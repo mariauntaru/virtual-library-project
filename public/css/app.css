@@ -1,0 +1,121 @@
+h1{
+    margin-top:10px;     
+    text-align:center;
+    display:flex;
+    justify-content: center;
+    color:rgb(182, 12, 139);
+}
+*{
+    background-color: rgb(247, 204, 236);
+}
+.title{
+  font-family: 'Cookie', cursive;
+  font-family: 'Fleur De Leah', cursive;
+  font-size:90px;
+}
+.vertical-menu {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float:left;
+    height: 100%; 
+    width: 160px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    overflow-x: hidden; 
+    padding-top: 20px;
+    background-color: rgb(228, 119, 201); 
+  }
+  
+.vertical-menu a {
+    text-align: center;
+    background-color: rgb(228, 119, 201); 
+    color: black; 
+    display: block; 
+    padding: 12px; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+  }
+  
+.vertical-menu a:hover {
+    background-color: rgb(163, 7, 124); 
+  }
+  
+.vertical-menu .active {
+    background-color: rgb(124, 3, 94); 
+    color: rgb(248, 191, 234);
+  }
+.frontpage{
+  text-align:left;
+  color:rgb(124, 3, 94);
+  font-size:large;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  float:inline-end; 
+  margin-left: 220px;
+  margin-right: 120px;
+}
+.align{
+  display: inline-block;
+}
+.column {
+  float: left;
+  width: 33.33%;
+}
+.content {
+  padding: 20px;
+}
+#pic{
+  margin-left: 40%;
+  width:250px;
+  height:230px;
+}
+.contact{
+  height:25px;
+  width: 25px;
+  margin-left:100px;
+  text-align:left;
+}
+.centered{
+  display: inline-flexbox;
+}
+.nodecor{
+  text-decoration: none;
+  color: rgb(124, 3, 94); 
+}
+.nodecor:hover{
+  color: rgb(247, 101, 210);
+}
+#booktitle{
+  font-family: 'Cookie', cursive;
+  font-size: 40px;
+}
+.button {
+    background-color: rgb(124, 3, 94); 
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 5px;
+    border-radius: 12px;
+}
+#author{
+  display: inline-block;
+}
+.margins{
+  margin-left: 220px;
+  margin-right: 120px;
+  font-size:large;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.alert{
+  background-color: rgb(233, 95, 123);
+  color:rgb(78, 16, 16);
+}
+.card-header{
+  font-size:x-large;
+  font-weight: bold;
+  
+}
